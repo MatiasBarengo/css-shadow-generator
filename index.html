@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Comfortaa:wght@400;600&family=Inter:wght@400;600&family=Poppins&family=Reem+Kufi+Fun:wght@400;700&family=Revalia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="container-square">
+            <div class="square"></div>
+        </div>
+        <div class="container-input">
+            <div class="horizontal-shadow-length">
+                <div class="range-p">
+                    <p>Horizontal shadow length</p>
+                    <p class="hsl-px">0px</p>
+                </div>
+                <div>
+                    <input type="range" min="-200" max="200" class="hsl-range">
+                </div>
+            </div>
+            <div class="vertical-shadow-length">
+                <div class="range-p">
+                    <p>Vertical shadow length</p>
+                    <p class="vsl-px">0px</p>
+                </div>
+                <div>
+                    <input type="range" min="-200" max="200" class="vsl-range">
+                </div>
+            </div>
+            <div class="blur-radius">
+                <div class="range-p">
+                    <p>Blur radius</p>
+                    <p class="blur-px">200px</p>
+                </div>
+                <div>
+                    <input type="range" min="0" max="250" class="blur-range">
+                </div>
+            </div>
+            <div class="spread-radius">
+                <div class="range-p">
+                    <p>Spread radius</p>
+                    <p class="spread-px">125px</p>
+                </div>
+                <div>
+                    <input type="range" min="-100" max="200" class="spread-range">
+                </div>
+            </div>
+            <div class="shadow-color">
+                <div>
+                    <p>Shadow color</p>
+                </div>
+                <div>
+                    <input type="color">
+                </div>
+            </div>
+            <div class="width">
+                <div class="range-p">
+                    <p>Width</p>
+                    <p class="width-px">250px</p>
+                </div>
+                <div>
+                    <input type="range" min="0" max="500" class="width-range">
+                </div>
+            </div>
+            <div class="height">
+                <div class="range-p">
+                    <p>height</p>
+                    <p class="height-px">250px</p>
+                </div>
+                <div>
+                    <input type="range" min="0" max="500" class="height-range">
+                </div>
+            </div>
+            <div class="border-radius">
+                <div class="range-p">
+                    <p>border-radius</p>
+                    <p class="border-radius-px">60px</p>
+                </div>
+                <div>
+                    <input type="range" min="0" max="250" class="border-radius-range">
+                </div>
+            </div>
+        </div>
+        <input type="button" value="Get result">
+        <div class="results">
+            <p class="shadow-result">box-shadow: 0px 0px 0px 0px black;</p>
+            <p class="width-result">width: 250px;</p>
+            <p class="heigth-result">height: 250px;</p>
+            <p class="radius-result">border-radius: 60px;</p>
+        </div>
+    </main>
+</body>
+<script src="./app.js"></script>
+
+</html>
