@@ -1,1 +1,1 @@
-www.matiasbarengo-css-shadow-generator.netlify.app
+matiasbarengo-css-shadow-generator.netlify.app
