@@ -10,9 +10,6 @@ const blurRange = document.querySelector('.blur-range');
 const spreadP = document.querySelector('.spread-px');
 const spreadRange = document.querySelector('.spread-range');
 
-const scoP = document.querySelector('.sco-px');
-const scoRange = document.querySelector('.sco-range');
-
 const shadowColor = document.querySelector('[type="color"]')
 
 const widthP = document.querySelector('.width-px');
